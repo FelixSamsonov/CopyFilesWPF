@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CopyFilesWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1116173fe8a9ead413d2db95b1c565b0008c58b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d9046f530c33a1fd094b9506b8aea585f2efba0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CopyFilesWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CopyFilesWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

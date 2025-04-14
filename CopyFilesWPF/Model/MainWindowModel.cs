@@ -1,4 +1,5 @@
 ﻿using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Controls;
 using static CopyFilesWPF.Model.FileCopier;
 
@@ -12,11 +13,11 @@ namespace CopyFilesWPF.Model
             FilePath = new FilePath();
         }
 
-        public void CopyFile(ProgressChangeDelegate onProgressChanged, CompleteDelegate onComplete, Grid gridPanel)
+        public async Task CopyFile(ProgressChangeDelegate onProgressChanged, CompleteDelegate onComplete, Grid gridPanel)
         {
             var copier = new FileCopier(FilePath, onProgressChanged, onComplete, gridPanel);
             gridPanel.Tag = copier;
-            var newCopierThread = copier.CopyFileAsync;
+            await copier.CopyFileAsync();
         }
     }
 }

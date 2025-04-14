@@ -7,24 +7,20 @@
       "RelativeMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|solutionrelative:copyfileswpf\\model\\filecopier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|c:\\users\\herman\\desktop\\copyfileswpf\\copyfileswpf\\model\\filepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|solutionrelative:copyfileswpf\\model\\filepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|c:\\users\\herman\\desktop\\copyfileswpf\\copyfileswpf\\view\\imainwindowview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|solutionrelative:copyfileswpf\\view\\imainwindowview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|c:\\users\\herman\\desktop\\copyfileswpf\\copyfileswpf\\presenter\\imainwindowpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|solutionrelative:copyfileswpf\\presenter\\imainwindowpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|c:\\users\\herman\\desktop\\copyfileswpf\\copyfileswpf\\presenter\\mainwindowpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|solutionrelative:copyfileswpf\\presenter\\mainwindowpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|c:\\users\\herman\\desktop\\copyfileswpf\\copyfileswpf\\presenter\\imainwindowpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|solutionrelative:copyfileswpf\\presenter\\imainwindowpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|c:\\users\\herman\\desktop\\copyfileswpf\\copyfileswpf\\view\\imainwindowview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|solutionrelative:copyfileswpf\\view\\imainwindowview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|c:\\users\\herman\\desktop\\copyfileswpf\\copyfileswpf\\model\\mainwindowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|solutionrelative:copyfileswpf\\model\\mainwindowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|c:\\users\\herman\\desktop\\copyfileswpf\\copyfileswpf\\model\\filepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C5A703-148B-4CB9-BCC9-FE4F19DA2260}|CopyFilesWPF\\CopyFilesWPF.csproj|solutionrelative:copyfileswpf\\model\\filepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,12 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -84,14 +76,14 @@
               "RelativeDocumentMoniker": "CopyFilesWPF\\Model\\FileCopier.cs",
               "ToolTip": "C:\\Users\\Herman\\Desktop\\CopyFilesWPF\\CopyFilesWPF\\Model\\FileCopier.cs",
               "RelativeToolTip": "CopyFilesWPF\\Model\\FileCopier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwFsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T05:03:35.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FilePath.cs",
               "DocumentMoniker": "C:\\Users\\Herman\\Desktop\\CopyFilesWPF\\CopyFilesWPF\\Model\\FilePath.cs",
               "RelativeDocumentMoniker": "CopyFilesWPF\\Model\\FilePath.cs",
@@ -104,33 +96,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IMainWindowView.cs",
               "DocumentMoniker": "C:\\Users\\Herman\\Desktop\\CopyFilesWPF\\CopyFilesWPF\\View\\IMainWindowView.cs",
               "RelativeDocumentMoniker": "CopyFilesWPF\\View\\IMainWindowView.cs",
               "ToolTip": "C:\\Users\\Herman\\Desktop\\CopyFilesWPF\\CopyFilesWPF\\View\\IMainWindowView.cs",
               "RelativeToolTip": "CopyFilesWPF\\View\\IMainWindowView.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T13:41:33.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindowPresenter.cs",
               "DocumentMoniker": "C:\\Users\\Herman\\Desktop\\CopyFilesWPF\\CopyFilesWPF\\Presenter\\MainWindowPresenter.cs",
               "RelativeDocumentMoniker": "CopyFilesWPF\\Presenter\\MainWindowPresenter.cs",
               "ToolTip": "C:\\Users\\Herman\\Desktop\\CopyFilesWPF\\CopyFilesWPF\\Presenter\\MainWindowPresenter.cs",
               "RelativeToolTip": "CopyFilesWPF\\Presenter\\MainWindowPresenter.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAuwLMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T13:38:57.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "IMainWindowPresenter.cs",
               "DocumentMoniker": "C:\\Users\\Herman\\Desktop\\CopyFilesWPF\\CopyFilesWPF\\Presenter\\IMainWindowPresenter.cs",
               "RelativeDocumentMoniker": "CopyFilesWPF\\Presenter\\IMainWindowPresenter.cs",
@@ -139,19 +131,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T13:38:55.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindowModel.cs",
-              "DocumentMoniker": "C:\\Users\\Herman\\Desktop\\CopyFilesWPF\\CopyFilesWPF\\Model\\MainWindowModel.cs",
-              "RelativeDocumentMoniker": "CopyFilesWPF\\Model\\MainWindowModel.cs",
-              "ToolTip": "C:\\Users\\Herman\\Desktop\\CopyFilesWPF\\CopyFilesWPF\\Model\\MainWindowModel.cs",
-              "RelativeToolTip": "CopyFilesWPF\\Model\\MainWindowModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T13:38:51.486Z",
               "EditorCaption": ""
             }
           ]
