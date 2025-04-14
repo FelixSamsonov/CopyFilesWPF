@@ -16,11 +16,7 @@ namespace CopyFilesWPF.Model
         {
             var copier = new FileCopier(FilePath, onProgressChanged, onComplete, gridPanel);
             gridPanel.Tag = copier;
-            var newCopierThread = new Thread(new ThreadStart(copier.CopyFile))
-            {
-                IsBackground = true
-            };
-            newCopierThread.Start();
+            var newCopierThread = copier.CopyFileAsync;
         }
     }
 }

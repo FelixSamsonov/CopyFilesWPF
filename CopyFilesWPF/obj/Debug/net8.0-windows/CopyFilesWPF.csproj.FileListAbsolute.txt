@@ -18,3 +18,4 @@ C:\Users\Herman\Desktop\CopyFilesWPF\CopyFilesWPF\obj\Debug\net8.0-windows\refin
 C:\Users\Herman\Desktop\CopyFilesWPF\CopyFilesWPF\obj\Debug\net8.0-windows\CopyFilesWPF.pdb
 C:\Users\Herman\Desktop\CopyFilesWPF\CopyFilesWPF\obj\Debug\net8.0-windows\CopyFilesWPF.genruntimeconfig.cache
 C:\Users\Herman\Desktop\CopyFilesWPF\CopyFilesWPF\obj\Debug\net8.0-windows\ref\CopyFilesWPF.dll
+C:\Users\Herman\Desktop\CopyFilesWPF\CopyFilesWPF\obj\Debug\net8.0-windows\CopyFilesWPF.sourcelink.json

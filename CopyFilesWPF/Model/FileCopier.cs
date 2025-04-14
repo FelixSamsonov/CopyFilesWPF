@@ -31,12 +31,16 @@ namespace CopyFilesWPF.Model
             _filePath = filePath;
             _gridPanel = gridPanel;
         }
-        public void CopyFile()
+        public async Task<byte[]> CreateBufferAsync()
         {
-            byte[] buffer = new byte[1024 * 1024];
+            return await Task.Run(() => new byte[1024 * 1024]);
+        }
+        public async Task CopyFileAsync()
+        {
+            byte[] buffer = await CreateBufferAsync();
             CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
             CancellationToken token = cancellationTokenSource.Token;
-            Task task = new Task(() =>
+
             {
                 try
                 {
@@ -48,22 +52,22 @@ namespace CopyFilesWPF.Model
                             long totalBytes = 0;
                             int currentBlockSize = 0;
 
-                            while ((currentBlockSize = source.Read(buffer, 0, buffer.Length)) > 0)
+                            while ((currentBlockSize = await source.ReadAsync(buffer, 0, buffer.Length)) > 0)
                             {
                                 token.ThrowIfCancellationRequested();
 
                                 totalBytes += currentBlockSize;
                                 double percentage = totalBytes * 100.0 / fileLength;
 
-                                destination.Write(buffer, 0, currentBlockSize);
+                                await destination.WriteAsync(buffer, 0, currentBlockSize);
                                 OnProgressChanged(percentage, ref CancelFlag, _gridPanel);
 
                                 if (CancelFlag)
                                 {
                                     File.Delete(_filePath.PathTo);
-                                    break; 
+                                    break;
                                 }
-                                PauseFlag.WaitOne(Timeout.Infinite); 
+                                await Task.Delay(100);
                             }
                         }
                     }
@@ -84,9 +88,7 @@ namespace CopyFilesWPF.Model
                 {
                     OnComplete(_gridPanel);
                 }
-            }, token);
-
-            task.Start();
+            }
         }
     }
 }
